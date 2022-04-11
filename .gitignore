@@ -1,0 +1,14 @@
+stx-kernel/
+Image
+System.map
+abi.prop
+abi.xml
+abi_symbollist
+dtb.img
+initramfs.img
+kernel-headers.tar.gz
+kernel-uapi-headers.tar.gz
+ramdisk.gz
+unstripped_modules.tar.gz
+vmlinux
+vendor_dlkm.img
