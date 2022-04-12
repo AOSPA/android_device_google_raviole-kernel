@@ -12,3 +12,7 @@ ramdisk.gz
 unstripped_modules.tar.gz
 vmlinux
 vendor_dlkm.img
+boot.img
+vendor_boot.img
+vendor-bootconfig.img
+*.dtbo
