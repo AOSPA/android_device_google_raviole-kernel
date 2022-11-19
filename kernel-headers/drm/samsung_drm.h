@@ -145,6 +145,10 @@ struct exynos_drm_histogram_event {
   struct drm_event base;
   struct histogram_bins bins;
 };
+enum exynos_prog_pos {
+  POST_DQE,
+  PRE_DQE,
+};
 #define EXYNOS_HISTOGRAM_REQUEST 0x0
 #define EXYNOS_HISTOGRAM_CANCEL 0x1
 #define DRM_IOCTL_EXYNOS_HISTOGRAM_REQUEST DRM_IOW(DRM_COMMAND_BASE + EXYNOS_HISTOGRAM_REQUEST, __u32)
